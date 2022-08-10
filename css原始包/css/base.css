@@ -1,0 +1,26 @@
+/*  公共样式*/
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* 去除下划线*/
+a{
+    text-decoration: none;
+    color: #333;
+
+}
+
+body{
+    font: 12px/1.5 "Microsoft Yahei","Hiragino Sans GB",sans-serif ;
+    color: #333;
+    min-width: 1226px;
+}
+
+/*  设置一个类表示容器宽度*/
+.w{
+    width: 1226px;
+    /* 居中*/
+    margin: 0 auto;
+}
